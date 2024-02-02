@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "simple-wifi-qrcode-generator"
+version = "0.1.0"
+description = ""
+authors = ["Cherny D. C. Berbesí I. <cherny.berbesi@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.1"
+pyqrcode = "^1.2.1"
+pypng = "^0.20220715.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.1"
+pylint = "^3.0.3"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+
+build-backend = "poetry.core.masonry.api"
